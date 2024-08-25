@@ -1,0 +1,97 @@
+body{
+    background-image: url(../img/panda.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial;
+}
+
+div.colum1Home{
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 50%;
+    height: 100vh;
+    float: left;
+
+}
+div.colum2Home{
+    background-color: rgb(0, 0, 0, 0.3);
+    width: 25%;
+    height: 100vh;
+    float: left;
+}
+div.colum3Home{
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 25%;
+    height: 100vh;
+    float: left;
+}
+
+div.text{
+    background-color: transparent;
+    position: absolute;
+    margin: 10%;
+    letter-spacing: 0.3em;
+}
+div.animals{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 8%;
+    font-size: 1.3vw;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}
+div.contact{
+    background-color: transparent;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 25%;
+    font-size: 1.3vw;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}
+
+h1{
+    color: white;
+    font-size: 3.5vw;
+    letter-spacing: 0.3em;
+}
+h2{
+    color: white;
+    font-size: 2.5vw;
+    letter-spacing: 0.3em;
+}
+p.home{
+    color: #70FFE5;
+    font-size: 1.2vw;
+    letter-spacing: 0.3em;
+}
+
+button{
+    width: 16vw;
+    height: 4vw;
+    background: #70FFE5;
+    border-radius: 40px;
+    color: #302E39;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+}
+
+a.what{
+    font-size: 1.4vw;
+    margin-top: 53%;
+    margin-left: 11%;
+    color: white;
+}
+a.what:hover{
+    text-decoration: underline;
+}

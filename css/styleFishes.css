@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/fishes.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial;
+}
+
+header{
+    background-color:rgb(0, 0, 0, 0.9);
+}
+
+nav{
+    margin-left: 10%;
+}
+a.menu{
+    color: white;
+    margin-right: 2%;
+}
+a.menu:hover{
+    color: #70FFE5;
+}
+
+main{
+    width: 90%;
+    margin-left: 5%;
+}
+
+div.card{
+    margin: 3%;
+    background-color:rgb(0, 0, 0, 0.7);
+    color: white;
+}
+
+div.card:hover{
+    background-color:rgb(0, 0, 0, 0.9);
+}
+
+h5{
+    color: #70FFE5;
+}
+
+a.link{
+    color: rgb(166, 166, 166);
+    text-decoration: none;
+}
